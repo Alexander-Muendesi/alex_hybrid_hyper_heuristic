@@ -1,0 +1,91 @@
+Seed: 1694855414614*
+Instance Number: 1 HC: 5 SC: 237
+Instance Number: 3 HC: 7 SC: 304
+Instance Number: 11 HC: 0 SC: 86
+Instance Number: 4 HC: 10 SC: 290
+Instance Number: 14 HC: 5 SC: 289
+Instance Number: 13 HC: 2 SC: 310
+Instance Number: 18 HC: 1 SC: 143
+Instance Number: 15 HC: 7 SC: 304
+Execution Time: 260.3432833333333
+
+Seed: 1694871035226*
+Instance Number: 1 HC: 4 SC: 110
+Instance Number: 4 HC: 15 SC: 316
+Instance Number: 11 HC: 0 SC: 72
+Instance Number: 13 HC: 29 SC: 467
+Instance Number: 3 HC: 4 SC: 269
+Instance Number: 14 HC: 7 SC: 262
+Instance Number: 18 HC: 0 SC: 65
+Instance Number: 15 HC: 4 SC: 269
+Execution Time: 398.4443
+
+
+Seed: 1694894941884*
+Instance Number: 1 HC: 0 SC: 123
+Instance Number: 4 HC: 11 SC: 330
+Instance Number: 11 HC: 0 SC: 77
+Instance Number: 13 HC: 8 SC: 314
+Instance Number: 14 HC: 10 SC: 286
+Instance Number: 3 HC: 5 SC: 288
+Instance Number: 18 HC: 0 SC: 147
+Instance Number: 15 HC: 5 SC: 288
+Execution Time: 400.2775
+
+Seed: 1694947772132*
+Instance Number: 1 HC: 0 SC: 84
+Instance Number: 4 HC: 1 SC: 258
+Instance Number: 11 HC: 14 SC: 86
+Instance Number: 3 HC: 2 SC: 203
+Instance Number: 14 HC: 6 SC: 353
+Instance Number: 13 HC: 3 SC: 341
+Instance Number: 18 HC: 0 SC: 94
+Instance Number: 15 HC: 2 SC: 203
+Execution Time: 518.6681
+
+Seed: 1694978892219
+Instance Number: 1 HC: 2 SC: 64
+Instance Number: 4 HC: 31 SC: 450
+Instance Number: 3 HC: 31 SC: 433
+Instance Number: 11 HC: 3 SC: 77
+Instance Number: 13 HC: 59 SC: 476
+Instance Number: 14 HC: 15 SC: 394
+Instance Number: 18 HC: 1 SC: 154
+Instance Number: 15 HC: 31 SC: 433
+Execution Time: 111.18766666666667
+
+Seed: 1694985563479*
+Instance Number: 1 HC: 1 SC: 133
+Instance Number: 3 HC: 9 SC: 304
+Instance Number: 11 HC: 1 SC: 74
+Instance Number: 4 HC: 1 SC: 221
+Instance Number: 14 HC: 7 SC: 264
+Instance Number: 15 HC: 9 SC: 304
+Instance Number: 18 HC: 1 SC: 134
+Instance Number: 13 HC: 35 SC: 450
+Execution Time: 303.99095
+
+Seed: 1695003802937*
+Instance Number: 1 HC: 3 SC: 97
+Instance Number: 4 HC: 10 SC: 252
+Instance Number: 11 HC: 3 SC: 87
+Instance Number: 3 HC: 9 SC: 264
+Instance Number: 13 HC: 2 SC: 373
+Instance Number: 14 HC: 3 SC: 207
+Instance Number: 15 HC: 9 SC: 264
+Instance Number: 18 HC: 0 SC: 95
+Execution Time: 289.73556666666667
+
+Seed: 1695021187071*
+Instance Number: 1 HC: 5 SC: 72
+Instance Number: 3 HC: 4 SC: 322
+Instance Number: 11 HC: 6 SC: 62
+Instance Number: 13 HC: 25 SC: 367
+Instance Number: 4 HC: 2 SC: 227
+Instance Number: 14 HC: 2 SC: 235
+Instance Number: 18 HC: 0 SC: 88
+Instance Number: 15 HC: 4 SC: 322
+Execution Time: 544.7110666666666
+
+Seed: 1695053869735
+Instance Number: 1 HC: 0 SC: 80

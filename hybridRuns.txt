@@ -1,0 +1,325 @@
+Seed: 1696965059518
+fileNumber: 11 result: 3 72
+fileNumber: 1 result: 0 106
+fileNumber: 18 result: 0 109
+fileNumber: 3 result: 42 481
+fileNumber: 15 result: 42 481
+fileNumber: 14 result: 30 466
+fileNumber: 13 result: 16 336
+fileNumber: 4 result: 20 452
+Seed: 1696968788572
+fileNumber: 11 result: 2 64
+fileNumber: 18 result: 0 82
+fileNumber: 1 result: 4 154
+fileNumber: 14 result: 6 274
+fileNumber: 3 result: 42 516
+fileNumber: 15 result: 42 516
+fileNumber: 13 result: 47 578
+fileNumber: 4 result: 55 529
+Seed: 1696980284769
+fileNumber: 11 result: 3 86
+fileNumber: 1 result: 5 122
+fileNumber: 18 result: 0 120
+fileNumber: 15 result: 18 403
+fileNumber: 3 result: 18 403
+fileNumber: 4 result: 9 371
+fileNumber: 14 result: 39 494
+fileNumber: 13 result: 49 454
+Seed: 1696984623243
+fileNumber: 11 result: 2 90
+fileNumber: 1 result: 0 80
+fileNumber: 18 result: 0 110
+fileNumber: 15 result: 16 375
+fileNumber: 3 result: 16 375
+fileNumber: 4 result: 61 429
+fileNumber: 13 result: 43 421
+fileNumber: 14 result: 107 530
+Seed: 1696987122723
+fileNumber: 18 result: 0 113
+fileNumber: 1 result: 2 84
+fileNumber: 11 result: 1 85
+fileNumber: 3 result: 47 397
+fileNumber: 15 result: 48 407
+fileNumber: 4 result: 74 433
+fileNumber: 13 result: 59 404
+fileNumber: 14 result: 43 416
+Seed: 1697139838838
+fileNumber: 11 result: 0 96
+fileNumber: 18 result: 1 94
+fileNumber: 1 result: 2 100
+fileNumber: 3 result: 9 327
+fileNumber: 15 result: 9 322
+fileNumber: 4 result: 34 504
+fileNumber: 14 result: 52 666
+fileNumber: 13 result: 71 458
+Seed: 1697142933696
+fileNumber: 11 result: 5 59
+fileNumber: 1 result: 3 137
+fileNumber: 18 result: 1 109
+fileNumber: 4 result: 4 253
+fileNumber: 13 result: 45 488
+fileNumber: 15 result: 26 427
+fileNumber: 3 result: 26 427
+fileNumber: 14 result: 37 489
+Seed: 1697150716570
+fileNumber: 11 result: 0 75
+fileNumber: 18 result: 0 74
+fileNumber: 1 result: 7 124
+fileNumber: 4 result: 57 465
+fileNumber: 3 result: 35 478
+fileNumber: 13 result: 9 331
+fileNumber: 14 result: 75 544
+fileNumber: 15 result: 35 478
+Seed: 1697155039991
+fileNumber: 11 result: 1 67
+fileNumber: 1 result: 0 66
+fileNumber: 18 result: 0 110
+fileNumber: 15 result: 35 398
+fileNumber: 3 result: 35 398
+fileNumber: 14 result: 107 583
+fileNumber: 4 result: 48 367
+fileNumber: 13 result: 45 433
+Seed: 1697156501740
+fileNumber: 11 result: 8 56
+fileNumber: 18 result: 1 124
+fileNumber: 1 result: 4 125
+fileNumber: 15 result: 11 352
+fileNumber: 3 result: 11 352
+fileNumber: 13 result: 28 403
+fileNumber: 14 result: 117 553
+fileNumber: 4 result: 38 419
+Seed: 1697169984689
+fileNumber: 11 result: 4 87
+fileNumber: 18 result: 1 70
+fileNumber: 15 result: 16 402
+fileNumber: 14 result: 29 486
+fileNumber: 13 result: 22 393
+fileNumber: 1 result: 31 332
+fileNumber: 4 result: 66 425
+fileNumber: 3 result: 14 408
+Seed: 1697175068122
+fileNumber: 11 result: 1 83
+fileNumber: 1 result: 2 95
+fileNumber: 18 result: 2 119
+fileNumber: 15 result: 14 474
+fileNumber: 3 result: 14 474
+fileNumber: 4 result: 16 422
+fileNumber: 14 result: 56 514
+fileNumber: 13 result: 64 467
+Seed: 1697315949499
+fileNumber: 11 result: 1 94
+fileNumber: 18 result: 1 53
+fileNumber: 1 result: 4 78
+fileNumber: 3 result: 41 479
+fileNumber: 15 result: 41 479
+fileNumber: 13 result: 31 405
+fileNumber: 14 result: 11 391
+fileNumber: 4 result: 81 614
+Seed: 1697322629361
+fileNumber: 11 result: 3 73
+fileNumber: 18 result: 11 262
+fileNumber: 1 result: 5 96
+fileNumber: 3 result: 6 420
+fileNumber: 15 result: 6 420
+fileNumber: 14 result: 7 367
+fileNumber: 13 result: 50 413
+fileNumber: 4 result: 81 518
+Seed: 1697328757719
+fileNumber: 1 result: 1 129
+fileNumber: 18 result: 0 110
+fileNumber: 11 result: 0 54
+fileNumber: 14 result: 27 424
+fileNumber: 13 result: 76 490
+fileNumber: 4 result: 72 417
+fileNumber: 15 result: 31 398
+fileNumber: 3 result: 31 398
+Seed: 1697331211711
+fileNumber: 11 result: 1 66
+fileNumber: 1 result: 0 61
+fileNumber: 18 result: 0 95
+fileNumber: 15 result: 52 572
+fileNumber: 3 result: 52 572
+fileNumber: 13 result: 43 436
+fileNumber: 4 result: 43 406
+fileNumber: 14 result: 43 436
+Seed: 1697333822340
+fileNumber: 1 result: 1 104
+fileNumber: 18 result: 0 128
+fileNumber: 3 result: 58 496
+fileNumber: 4 result: 9 296
+fileNumber: 14 result: 54 570
+fileNumber: 15 result: 58 496
+fileNumber: 11 result: 2 64
+fileNumber: 13 result: 49 450
+Seed: 1697336622420
+fileNumber: 1 result: 0 79
+fileNumber: 11 result: 0 64
+fileNumber: 18 result: 0 76
+fileNumber: 15 result: 46 511
+fileNumber: 3 result: 46 511
+fileNumber: 4 result: 61 436
+fileNumber: 14 result: 111 534
+fileNumber: 13 result: 54 479
+Seed: 1697338204896
+fileNumber: 11 result: 2 73
+fileNumber: 1 result: 0 64
+fileNumber: 18 result: 0 82
+fileNumber: 4 result: 48 504
+fileNumber: 14 result: 41 450
+fileNumber: 13 result: 59 497
+fileNumber: 15 result: 33 501
+fileNumber: 3 result: 33 501
+Seed: 1697350091108
+fileNumber: 11 result: 19 75
+fileNumber: 18 result: 0 119
+fileNumber: 1 result: 1 80
+fileNumber: 15 result: 11 358
+fileNumber: 3 result: 11 352
+fileNumber: 14 result: 103 594
+fileNumber: 4 result: 9 331
+fileNumber: 13 result: 56 443
+Seed: 1697360313182
+fileNumber: 11 result: 0 51
+fileNumber: 1 result: 3 95
+fileNumber: 18 result: 0 105
+fileNumber: 3 result: 47 485
+fileNumber: 15 result: 47 485
+fileNumber: 4 result: 39 370
+fileNumber: 13 result: 29 434
+fileNumber: 14 result: 21 355
+Seed: 1697400417229
+fileNumber: 11 result: 4 69
+fileNumber: 18 result: 9 238
+fileNumber: 1 result: 1 99
+fileNumber: 14 result: 44 499
+fileNumber: 15 result: 29 701
+fileNumber: 3 result: 29 716
+fileNumber: 13 result: 1 253
+fileNumber: 4 result: 64 676
+Seed: 1697415288082
+fileNumber: 11 result: 1 77
+fileNumber: 1 result: 0 69
+fileNumber: 18 result: 0 118
+fileNumber: 14 result: 56 474
+fileNumber: 4 result: 20 311
+fileNumber: 15 result: 8 343
+fileNumber: 3 result: 8 343
+fileNumber: 13 result: 74 475
+Seed: 1697418828478
+fileNumber: 11 result: 1 72
+fileNumber: 1 result: 3 83
+fileNumber: 18 result: 1 52
+fileNumber: 15 result: 55 553
+fileNumber: 3 result: 55 553
+fileNumber: 14 result: 20 379
+fileNumber: 13 result: 32 377
+fileNumber: 4 result: 23 421
+Seed: 1697422689498
+fileNumber: 11 result: 1 96
+fileNumber: 1 result: 1 128
+fileNumber: 3 result: 40 493
+fileNumber: 15 result: 40 493
+fileNumber: 18 result: 0 83
+fileNumber: 4 result: 43 413
+fileNumber: 13 result: 15 422
+fileNumber: 14 result: 63 571
+Seed: 1697426423959
+fileNumber: 11 result: 10 49
+fileNumber: 1 result: 1 104
+fileNumber: 18 result: 0 93
+fileNumber: 15 result: 75 508
+fileNumber: 3 result: 75 508
+fileNumber: 4 result: 13 395
+fileNumber: 14 result: 35 437
+fileNumber: 13 result: 27 415
+Seed: 1697431326216
+fileNumber: 11 result: 1 93
+fileNumber: 1 result: 6 105
+fileNumber: 18 result: 0 93
+fileNumber: 14 result: 47 428
+fileNumber: 4 result: 28 441
+fileNumber: 13 result: 35 447
+fileNumber: 15 result: 46 480
+fileNumber: 3 result: 46 480
+Seed: 1697433799463
+fileNumber: 11 result: 0 78
+fileNumber: 18 result: 2 91
+fileNumber: 1 result: 0 93
+fileNumber: 3 result: 39 554
+fileNumber: 15 result: 39 554
+fileNumber: 14 result: 29 543
+fileNumber: 13 result: 79 443
+fileNumber: 4 result: 63 499
+Seed: 1697493040547
+fileNumber: 11 result: 4 80
+fileNumber: 18 result: 0 94
+fileNumber: 1 result: 0 113
+fileNumber: 14 result: 35 585
+fileNumber: 4 result: 23 460
+fileNumber: 13 result: 62 485
+fileNumber: 15 result: 29 565
+fileNumber: 3 result: 29 565
+Seed: 1697496834088
+fileNumber: 11 result: 4 84
+fileNumber: 1 result: 1 136
+fileNumber: 18 result: 1 131
+fileNumber: 3 result: 49 469
+fileNumber: 15 result: 49 469
+fileNumber: 14 result: 5 280
+fileNumber: 4 result: 15 337
+fileNumber: 13 result: 54 554
+Seed: 1697514380492
+fileNumber: 1 result: 2 93
+fileNumber: 11 result: 2 67
+fileNumber: 18 result: 1 107
+fileNumber: 15 result: 60 522
+fileNumber: 3 result: 60 522
+fileNumber: 14 result: 18 324
+fileNumber: 4 result: 19 474
+fileNumber: 13 result: 30 528
+Seed: 1697517592248
+fileNumber: 11 result: 4 53
+fileNumber: 1 result: 1 106
+fileNumber: 3 result: 27 482
+fileNumber: 18 result: 0 73
+fileNumber: 4 result: 19 422
+fileNumber: 14 result: 98 501
+fileNumber: 15 result: 27 482
+fileNumber: 13 result: 73 451
+Seed: 1697660380518
+fileNumber: 18 result: 0 136
+fileNumber: 11 result: 1 59
+fileNumber: 3 result: 27 428
+fileNumber: 15 result: 27 429
+fileNumber: 1 result: 1 80
+fileNumber: 14 result: 18 442
+fileNumber: 13 result: 32 472
+fileNumber: 4 result: 56 475
+Seed: 1697664426997
+fileNumber: 11 result: 4 64
+fileNumber: 1 result: 2 90
+fileNumber: 18 result: 0 81
+fileNumber: 3 result: 39 396
+fileNumber: 15 result: 37 398
+fileNumber: 4 result: 28 397
+fileNumber: 14 result: 51 528
+fileNumber: 13 result: 62 474
+Seed: 1697666503680
+fileNumber: 11 result: 6 68
+fileNumber: 18 result: 11 293
+fileNumber: 1 result: 0 86
+fileNumber: 13 result: 46 435
+fileNumber: 3 result: 36 393
+fileNumber: 15 result: 36 393
+fileNumber: 4 result: 21 343
+fileNumber: 14 result: 26 569
+Seed: 1697671726968
+fileNumber: 11 result: 2 88
+fileNumber: 1 result: 10 71
+fileNumber: 18 result: 0 106
+fileNumber: 15 result: 37 366
+fileNumber: 3 result: 37 366
+fileNumber: 14 result: 15 341
+fileNumber: 4 result: 9 380
+fileNumber: 13 result: 24 368
+

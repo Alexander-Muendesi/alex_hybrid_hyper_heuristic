@@ -33,19 +33,21 @@ public class Perturbator {
         this.thresholdValue = thresholdValue;
         this.thresholdAdaptationFactor = thresholdAdaptationFactor;
         this.iterationLimit = iterationLimit;
+        this.heuristics = heuristics;
     }
 
     public void execute(){
         //create an initial solution
         Solutions solution = new Solutions(reader, random);
-        Timetable timetable = new Timetable(solution.generateSolution(), reader, random);
+        // Timetable timetable = new Timetable(solution.generateSolution(), reader, random);
+        Timetable timetable = heuristics.get(0).timetable;
         Timetable copyTimetable =  new Timetable(timetable.getTimetable(), reader, random);
 
         int numIterations = 0;
         int[] bestFitness = timetable.calculateFitness();
         int[] result = {};
 
-        while(numIterations <= 150000){
+        while(numIterations <= 500){
             copyTimetable = tournamentSelection(timetable);//heuristic selection and execution
             int[] currentFitness = copyTimetable.calculateFitness();
 
@@ -58,7 +60,6 @@ public class Perturbator {
                 timetable.setTimetable(copyTimetable.getTimetable());
                 bestFitness = currentFitness;
             }
-
             if(currentFitness[0]+currentFitness[1] > bestFitness[0]+bestFitness[1]){//adapt the threshold if there is no improvement in fitness
                 thresholdValue *= thresholdAdaptationFactor;
             }
@@ -88,13 +89,13 @@ public class Perturbator {
         int[] tempFitness = {};
         int bestIndex = 0;
 
-        for(Timetable t: timetables){
-            t = new Timetable(timetable, reader,random);
-            timetables[counter] = t;
+        for(Timetable tt: timetables){
+            tt = new Timetable(timetable, reader,random);
+            timetables[counter] = tt;
             population.get(counter).evaluateIndividual();
-            t.setTimetable(population.get(counter).timetable.getTimetable());
+            tt.setTimetable(population.get(counter).timetable.getTimetable());
 
-            tempFitness = t.calculateFitness();
+            tempFitness = tt.calculateFitness();
             if(tempFitness[0] + tempFitness[1] < bestFitness){
                 bestIndex = counter;
                 bestFitness = tempFitness[0]+tempFitness[1];

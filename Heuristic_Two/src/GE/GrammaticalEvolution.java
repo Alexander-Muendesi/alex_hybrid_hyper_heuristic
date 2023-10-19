@@ -95,8 +95,8 @@ public class GrammaticalEvolution {
     }
 
     /**
-     * This method returns the 6 best heuristics from the population
-     * @return List containing the 6 best heuristics
+     * This method returns the 10 best heuristics from the population
+     * @return List containing the 10 best heuristics
      */
     public List<Chromosome> getHeuristics(){
         List<Chromosome> best = new ArrayList<Chromosome>();
@@ -115,7 +115,7 @@ public class GrammaticalEvolution {
             }
         });
 
-        for(int i=0;i<6;i++)
+        for(int i=0;i<10;i++)
             best.add(pop.get(i));
 
         return best;

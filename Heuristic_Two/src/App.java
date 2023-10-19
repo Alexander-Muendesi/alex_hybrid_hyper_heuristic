@@ -14,7 +14,7 @@ import data_classes.DataReader;
 
 public class App {
 
-    public static long seed = 2154645;
+    public static long seed = 0;
     public static int numThreads = 8;
     public static void main(String[] args) throws Exception {
         // Scanner scanner = new Scanner(System.in);
@@ -32,29 +32,31 @@ public class App {
         // executeRun();
         // scanner.close();
 
-        Random random = new Random(seed);
-        DataReader dataReader = new DataReader(1);
-        int tournamentSize = 5;
-        int minCodons = 8;
-        int maxCodons = 24;
-        int populationSize = 141;
-        double crossoverRate = 0.070625;
-        double mutationRate = 1.0 - crossoverRate;
-        int numInvocations = 26;
-        double thresholdValue = 0.5585859375, thresholdAdaptationFactor = 0.8367421875;
-        int pTournamentSize = 3;
+        // Random random = new Random(seed);
+        // DataReader dataReader = new DataReader(1);
+        // int tournamentSize = 5;
+        // int minCodons = 8;
+        // int maxCodons = 24;
+        // int populationSize = 141;
+        // double crossoverRate = 0.070625;
+        // double mutationRate = 1.0 - crossoverRate;
+        // double thresholdValue = 0.5585859375, thresholdAdaptationFactor = 0.8367421875;
+        // int pTournamentSize = 3;
 
-        GrammaticalEvolution ge = new GrammaticalEvolution(random, maxCodons, minCodons, tournamentSize, populationSize, mutationRate, crossoverRate, 2000, dataReader);
-        ge.execute();
+        // GrammaticalEvolution ge = new GrammaticalEvolution(random, maxCodons, minCodons, tournamentSize, populationSize, mutationRate, crossoverRate, 2000, dataReader);
+        // ge.execute();
 
-        List<Chromosome> bestSix = ge.getHeuristics();
+        // List<Chromosome> heuristics = ge.getHeuristics();
 
-        Perturbator perturbator = new Perturbator(random, dataReader, pTournamentSize, thresholdValue, thresholdAdaptationFactor, pTournamentSize, bestSix);
-        perturbator.execute();
+        // Perturbator perturbator = new Perturbator(random, dataReader, pTournamentSize, thresholdValue, thresholdAdaptationFactor, pTournamentSize, heuristics);
+        // perturbator.execute();
+        while(true)
+            executeRun();
 
     }
 
     public static void executeRun(){
+        seed = System.currentTimeMillis();
         System.out.println("Seed: " + seed);
         ExecutorService executorService = Executors.newFixedThreadPool(numThreads);
 
@@ -121,9 +123,16 @@ public class App {
         int populationSize = 141;
         double crossoverRate = 0.070625;
         double mutationRate = 1.0 - crossoverRate;
+        double thresholdValue = 0.5585859375, thresholdAdaptationFactor = 0.8367421875;
+        int pTournamentSize = 3;
 
         GrammaticalEvolution ge = new GrammaticalEvolution(random, maxCodons, minCodons, tournamentSize, populationSize, mutationRate, crossoverRate, 2000, dataReader);
         ge.execute();
+
+        List<Chromosome> heuristics = ge.getHeuristics();
+
+        Perturbator perturbator = new Perturbator(random, dataReader, pTournamentSize, thresholdValue, thresholdAdaptationFactor, pTournamentSize, heuristics);
+        perturbator.execute();
     }
 
     public static void execute3(){
@@ -135,9 +144,16 @@ public class App {
         int populationSize = 141;
         double crossoverRate = 0.070625;
         double mutationRate = 1.0 - crossoverRate;
+        double thresholdValue = 0.5585859375, thresholdAdaptationFactor = 0.8367421875;
+        int pTournamentSize = 3;
 
         GrammaticalEvolution ge = new GrammaticalEvolution(random, maxCodons, minCodons, tournamentSize, populationSize, mutationRate, crossoverRate, 2000, dataReader);
         ge.execute();
+
+        List<Chromosome> heuristics = ge.getHeuristics();
+
+        Perturbator perturbator = new Perturbator(random, dataReader, pTournamentSize, thresholdValue, thresholdAdaptationFactor, pTournamentSize, heuristics);
+        perturbator.execute();
     }
 
     public static void execute4(){
@@ -149,9 +165,16 @@ public class App {
         int populationSize = 141;
         double crossoverRate = 0.070625;
         double mutationRate = 1.0 - crossoverRate;
+        double thresholdValue = 0.5585859375, thresholdAdaptationFactor = 0.8367421875;
+        int pTournamentSize = 3;
 
         GrammaticalEvolution ge = new GrammaticalEvolution(random, maxCodons, minCodons, tournamentSize, populationSize, mutationRate, crossoverRate, 2000, dataReader);
         ge.execute();
+
+        List<Chromosome> heuristics = ge.getHeuristics();
+
+        Perturbator perturbator = new Perturbator(random, dataReader, pTournamentSize, thresholdValue, thresholdAdaptationFactor, pTournamentSize, heuristics);
+        perturbator.execute();
     }
 
     public static void execute11(){
@@ -163,9 +186,16 @@ public class App {
         int populationSize = 141;
         double crossoverRate = 0.070625;
         double mutationRate = 1.0 - crossoverRate;
+        double thresholdValue = 0.5585859375, thresholdAdaptationFactor = 0.8367421875;
+        int pTournamentSize = 3;
 
         GrammaticalEvolution ge = new GrammaticalEvolution(random, maxCodons, minCodons, tournamentSize, populationSize, mutationRate, crossoverRate, 2000, dataReader);
         ge.execute();
+
+        List<Chromosome> heuristics = ge.getHeuristics();
+
+        Perturbator perturbator = new Perturbator(random, dataReader, pTournamentSize, thresholdValue, thresholdAdaptationFactor, pTournamentSize, heuristics);
+        perturbator.execute();
     }
 
     public static void execute13(){
@@ -177,9 +207,16 @@ public class App {
         int populationSize = 141;
         double crossoverRate = 0.070625;
         double mutationRate = 1.0 - crossoverRate;
+        double thresholdValue = 0.5585859375, thresholdAdaptationFactor = 0.8367421875;
+        int pTournamentSize = 3;
 
         GrammaticalEvolution ge = new GrammaticalEvolution(random, maxCodons, minCodons, tournamentSize, populationSize, mutationRate, crossoverRate, 2000, dataReader);
         ge.execute();
+
+        List<Chromosome> heuristics = ge.getHeuristics();
+
+        Perturbator perturbator = new Perturbator(random, dataReader, pTournamentSize, thresholdValue, thresholdAdaptationFactor, pTournamentSize, heuristics);
+        perturbator.execute();
     }
 
     public static void execute14(){
@@ -191,9 +228,16 @@ public class App {
         int populationSize = 141;
         double crossoverRate = 0.070625;
         double mutationRate = 1.0 - crossoverRate;
+        double thresholdValue = 0.5585859375, thresholdAdaptationFactor = 0.8367421875;
+        int pTournamentSize = 3;
 
         GrammaticalEvolution ge = new GrammaticalEvolution(random, maxCodons, minCodons, tournamentSize, populationSize, mutationRate, crossoverRate, 2000, dataReader);
         ge.execute();
+
+        List<Chromosome> heuristics = ge.getHeuristics();
+
+        Perturbator perturbator = new Perturbator(random, dataReader, pTournamentSize, thresholdValue, thresholdAdaptationFactor, pTournamentSize, heuristics);
+        perturbator.execute();
     }
 
     public static void execute15(){
@@ -205,9 +249,16 @@ public class App {
         int populationSize = 141;
         double crossoverRate = 0.070625;
         double mutationRate = 1.0 - crossoverRate;
+        double thresholdValue = 0.5585859375, thresholdAdaptationFactor = 0.8367421875;
+        int pTournamentSize = 3;
 
         GrammaticalEvolution ge = new GrammaticalEvolution(random, maxCodons, minCodons, tournamentSize, populationSize, mutationRate, crossoverRate, 2000, dataReader);
         ge.execute();
+
+        List<Chromosome> heuristics = ge.getHeuristics();
+
+        Perturbator perturbator = new Perturbator(random, dataReader, pTournamentSize, thresholdValue, thresholdAdaptationFactor, pTournamentSize, heuristics);
+        perturbator.execute();
     }
 
     public static void execute18(){
@@ -219,9 +270,16 @@ public class App {
         int populationSize = 141;
         double crossoverRate = 0.070625;
         double mutationRate = 1.0 - crossoverRate;
+        double thresholdValue = 0.5585859375, thresholdAdaptationFactor = 0.8367421875;
+        int pTournamentSize = 3;
 
         GrammaticalEvolution ge = new GrammaticalEvolution(random, maxCodons, minCodons, tournamentSize, populationSize, mutationRate, crossoverRate, 2000, dataReader);
         ge.execute();
+
+        List<Chromosome> heuristics = ge.getHeuristics();
+
+        Perturbator perturbator = new Perturbator(random, dataReader, pTournamentSize, thresholdValue, thresholdAdaptationFactor, pTournamentSize, heuristics);
+        perturbator.execute();
     }
 
     public static void test(){

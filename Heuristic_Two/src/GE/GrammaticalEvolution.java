@@ -1,6 +1,8 @@
 package GE;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -66,8 +68,8 @@ public class GrammaticalEvolution {
                 stopCounter = 0;
         }
             
-        System.out.print("Instance Number: " + dataReader.filenumber + " ");
-        bestIndividual.printFitness();
+        // System.out.print("Instance Number: " + dataReader.filenumber + " ");
+        // bestIndividual.printFitness();
         // System.out.println(bestIndividual.programRepresantation);
         // System.out.println(bestIndividual.timetable.deletedCourses.size());
     }
@@ -89,6 +91,33 @@ public class GrammaticalEvolution {
             if(temp.getFitness() < best.getFitness())
                 best = temp;
         }
+        return best;
+    }
+
+    /**
+     * This method returns the 10 best heuristics from the population
+     * @return List containing the 10 best heuristics
+     */
+    public List<Chromosome> getHeuristics(){
+        List<Chromosome> best = new ArrayList<Chromosome>();
+
+        List<Chromosome> pop = new ArrayList<Chromosome>();
+        for(int i=0; i<population.size();i++){
+            pop.add(population.get(i));
+        }
+        Collections.sort(pop, new Comparator<Chromosome>(){
+            @Override
+            public int compare(Chromosome one, Chromosome two){
+                int fitnessOne = one.getFitness();
+                int fitnessTwo = two.getFitness();
+                
+                return Integer.compare(fitnessOne, fitnessTwo);
+            }
+        });
+
+        for(int i=0;i<10;i++)
+            best.add(pop.get(i));
+
         return best;
     }
 
